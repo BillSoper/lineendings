@@ -1,0 +1,26 @@
+{
+  "name": "lineendings",
+  "version": "1.0.0",
+  "description": "Common line endings in enum and String and go-betweens",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BillSoper/lineendings.git"
+  },
+  "author": "Bill Soper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BillSoper/lineendings/issues"
+  },
+  "homepage": "https://github.com/BillSoper/lineendings#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "typescript": "^3.6.3"
+  }
+}
